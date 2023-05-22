@@ -1,0 +1,21 @@
+// You can use normalize: https://github.com/necolas/normalize.css/blob/master/normalize.css
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: $black-clr;
+    &,
+    &:active,
+    &:visited {
+        text-decoration: none;
+    }
+}
+
+ul {
+    list-style: none;
+}

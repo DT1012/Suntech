@@ -1,0 +1,53 @@
+.header {
+    margin: 40px 0;
+    &-nav {
+        &-list {
+            padding: 0 20px;
+            a {
+                font-weight: 600;
+                &:hover {
+                    color: $green-clr;
+                }
+            }
+        }
+        &-mobile {
+            display: none;
+            @include tablet {
+                display: none !important;
+            }
+            @include desktop {
+                display: none !important;
+            }
+            @include mobile {
+                position: absolute;
+                right: -20px;
+                top: 70px;
+                padding: 7px 0;
+                z-index: 1;
+                background-color: #fff;
+            }
+        }
+    }
+    &-icon {
+        &-list {
+            padding: 0 12px;
+            position: relative;
+            .three {
+                @include abs($x: 35px, $y: 0);
+                width: 25px;
+                height: 25px;
+                p {
+                    text-align: center;
+                    height: 100%;
+                    width: 100%;
+                    color: $white-clr;
+                    background-color: $green-clr;
+                    border-radius: 50%;
+                }
+            }
+            &:hover {
+                color: $green-clr;
+            }
+        }
+    }
+}
