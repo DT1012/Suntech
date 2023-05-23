@@ -338,7 +338,7 @@ ul {
 
 .special-search {
   text-align: center;
-  background-image: url("../../../images_suntech/footer/bg.jpg");
+  background-image: url("/assets/images_suntech/footer/bg.jpg");
 }
 .special-search-form {
   max-width: 620px;
