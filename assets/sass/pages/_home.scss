@@ -81,6 +81,7 @@
 
 .promotion-image {
     margin-bottom: 16px;
+    overflow: hidden;
 }
 
 .category-image {
@@ -91,9 +92,9 @@
 
 .special-search {
     text-align: center;
-    background-image: url('/assets/images_suntech/footer/bg.jpg');
+    background-image: url('../../../assets/images_suntech/footer/bg.jpg');
     &-form {
-        max-width: 620px;
+        max-width: 700px;
         margin: auto;
         padding: 60px 0;
         @include mobile {

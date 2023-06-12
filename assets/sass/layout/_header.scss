@@ -22,9 +22,16 @@
                 position: absolute;
                 right: -20px;
                 top: 70px;
-                padding: 7px 0;
+                padding: 30px 0;
                 z-index: 1;
                 background-color: #fff;
+                width: 50%;
+                box-shadow: 33px 77px 83px rgba(0, 0, 0, 0.13);
+            }
+            li {
+                @include mobile {
+                    padding: 15px 30px;
+                }
             }
         }
     }
