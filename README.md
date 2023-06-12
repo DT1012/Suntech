@@ -1,1 +1,1 @@
-# Suntech
+# suntech
